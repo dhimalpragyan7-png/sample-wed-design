@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: white;
+  padding: 30px 40px;
+
+}
+
+.navbar a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: gray;
+}
+
+.hero {
+  background: white;
+  color: black;
+  padding: 60px 40px;
+}
+
+.left-side {
+  width: 55%;
+  float: left;
+}
+
+.small-text {
+  font-size: 13px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.left-side h1 {
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn1 {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background: none;
+  color: white;
+  border: 2px solid rgba(255,255,255,0.5);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form {
+  background: white;
+  color:black;
+  width: 340px;
+  padding: 30px;
+  float: right ;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.form input,
+.form select {
+  width: 95%;
+  padding: 9px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border: 2px solid black;
+    
+
+}
+header button {
+    background-color: lightblue;
+}
