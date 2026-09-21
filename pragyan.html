@@ -1,48 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web</title>
     <link rel="stylesheet" href="pragyans.css">
-
 </head>
 <body>
-    <header>
-    <div class="navbar">
-        <h2 style="display: inline;">My Web</h2>
+
+    <div class="header">
+        <h2 class="logo">My Web</h2>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Service</a>
         <a href="#">Gallery</a>
         <a href="#">Testimonials</a>
         <a href="#">Contact</a>
+        <button class="get-started">Get Started</button>
     </div>
-     <button>Get Started</button>
-</header>
-            <div class="hero section">
-        <div class="left-side">
-            <p class="small-text">WEB DEVELOPMENT STUDIO</p>
-            <h1>Build better website.<br>Learn by doing.</h1>
-            <p>A clean landing page challenge...</p>
-            <button class="btn1">Start Project</button>
-            <button class="btn2">View Services</button>
+
+    <div class="hero">
+        <div class="left">
+            <p class="small">WEB DEVELOPMENT STUDIO</p>
+            <h1>Build better websites.<br>Learn by doing.</h1>
+            <p>A clean landing page challenge designed to test HTML structure, CSS layout, cards, tables, and responsive thinking.</p>
+            <button class="blue-btn">Start Project</button>
+            <button class="white-btn">View Services</button>
         </div>
-    
-<div class="form">
-  <h3>Let's work together</h3>
-  Full Name<br>
-  <input type="text" placeholder="Pragyan Dhimal"><br><br>
-  Email Address<br>
-  <input type="email" placeholder="pragyan@gmail.com"><br><br>
-    Project Type<br>
-  <select>
-    <option>Website Design</option>
-    ...
-  </select><br><br>
-  <button class="btn1">Send Message</button>
-</div>
-</div>
+
+        <div class="form-box">
+            <h3>Let's work together</h3>
+            Full Name<br>
+            <input type="text" placeholder="Pragyan Dhimal"><br><br>
+            Email Address<br>
+            <input type="email" placeholder="pragyan@gmail.com"><br><br>
+            Project Type<br>
+            <select>
+                <option>Website Design</option>
+                <option>Web Development</option>
+                <option>UI/UX Design</option>
+            </select><br><br>
+            <button class="blue-btn">Send Message</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>What you can build</h2>
+        <p>Four reusable service cards to practice consistent UI, grid layout, spacing and responsive design.</p>
+
+        <div class="box">
+            <div class="circle"></div>
+            <h3>Web Development</h3>
+            <p>Clean HTML structure, semantic markup and accessible components.</p>
+        </div>
+        <div class="box">
+            <div class="circle"></div>
+            <h3>Responsive Design</h3>
+            <p>Layouts that work on mobile, tablet and desktop using modern CSS.</p>
+        </div>
+        <div class="box">
+            <div class="circle"></div>
+            <h3>UI / UX Design</h3>
+            <p>Clear hierarchy, spacing, forms and micro-interactions.</p>
+        </div>
+        <div class="box">
+            <div class="circle"></div>
+            <h3>Maintenance & Support</h3>
+            <p>Reusable patterns, clean code and easy-to-update sections.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section">
+        <div class="brief-left">
+            <h2>A simple brief for juniors</h2>
+            <p>Turn this design into a responsive webpage. Focus on clean HTML, CSS layout, reusable card components, form controls, and layout that adapts from desktop to mobile.</p>
+            <button class="blue-btn">Learn More</button>
+        </div>
+        <div class="brief-right"></div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section">
+        <h2>Selected work</h2>
+
+        <div class="work">
+            <div class="work-img"></div>
+            <h3>SaaS Dashboard</h3>
+            <p>Web Application</p>
+        </div>
+        <div class="work">
+            <div class="work-img"></div>
+            <h3>Creative Studio</h3>
+            <p>Landing Page</p>
+        </div>
+        <div class="work">
+            <div class="work-img"></div>
+            <h3>Portfolio Site</h3>
+            <p>Personal</p>
+        </div>
+        <div class="work">
+            <div class="work-img"></div>
+            <h3>E-commerce</h3>
+            <p>Online Store</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section">
+        <h2>What people say</h2>
+
+        <div class="testimonial">
+            <p>"The layout is clean and easy to scan through. The spacing between the CSS is consistent."</p>
+            <b>Asha Sharma</b><br>
+            <span>Frontend Developer</span>
+        </div>
+        <div class="testimonial">
+            <p>"A good exercise for learning cards, forms, and responsive thinking."</p>
+            <b>Raju Thapa</b><br>
+            <span>Junior Developer</span>
+        </div>
+        <div class="testimonial">
+            <p>"Simple enough for beginners, but detailed enough to show how the UI should look and feel."</p>
+            <b>Maya Gurung</b><br>
+            <span>UI Designer</span>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section">
+        <h2>HTML Elements Lab</h2>
+        <p>Practice semantic, accessible and consistent custom components while writing CSS.</p>
+
+        <div class="lab">
+            <h3>1. Semantic page structure</h3>
+            <p>Use meaningful elements instead of only divs and spans.</p>
+            <div class="code">
+                &lt;header&gt; ... &lt;/header&gt;<br>
+                &lt;main&gt; ... &lt;/main&gt;<br>
+                &lt;section&gt; ... &lt;/section&gt;<br>
+                &lt;footer&gt; ... &lt;/footer&gt;
+            </div>
+            <button class="white-btn">Read the guide →</button>
+        </div>
+
+        <div class="lab">
+            <h3>2. Text & content elements</h3>
+            <p>Headings, paragraphs, lists, links, and more.</p>
+            <h4>H1 Main page heading</h4>
+            <h5>H2 Section heading</h5>
+            <p>This is a normal paragraph with <a href="#">a link</a> and <b>bold text</b>.</p>
+            <ul>
+                <li>Unordered list item</li>
+                <li>Another list item</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section">
+        <h2>Forms & Tables Lab</h2>
+        <p>Practice accessible forms and clean table layouts before adding JS.</p>
+
+        <div class="lab">
+            <h3>1. Form controls</h3>
+            Full name<br>
+            <input type="text" placeholder="Your full name"><br><br>
+            Email<br>
+            <input type="email" placeholder="you@example.com"><br><br>
+            Message<br>
+            <textarea rows="4" placeholder="Tell us about your project..."></textarea><br><br>
+            <input type="radio" name="plan"> Basic plan
+            <input type="radio" name="plan"> Pro plan<br><br>
+            <input type="checkbox"> I agree to the terms<br><br>
+            <button class="blue-btn">Submit form</button>
+        </div>
+
+        <div class="lab">
+            <h3>2. Semantic table</h3>
+            <table border="1" width="100%">
+                <tr>
+                    <th>Feature</th>
+                    <th>Basic</th>
+                    <th>Pro</th>
+                </tr>
+                <tr>
+                    <td>Pages</td>
+                    <td>5</td>
+                    <td>Unlimited</td>
+                </tr>
+                <tr>
+                    <td>Support</td>
+                    <td>Email</td>
+                    <td>Priority</td>
+                </tr>
+                <tr>
+                    <td>Custom domain</td>
+                    <td>-</td>
+                    <td>✓</td>
+                </tr>
+            </table>
+            <br>
+            <button class="white-btn">Download table →</button>
+        </div>
+        <div class="clear"></div>
+    </div>
 
 </body>
 </html>
